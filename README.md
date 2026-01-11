@@ -25,29 +25,53 @@ KTC-ChatGPT performs the following:
 
 ### Step 1: Clone the Repository
 
-### Step 2: Create and Activate Conda Environment
-conda create -n ktc-chatgpt python=3.10 -y
-conda activate ktc-chatgpt
+## 🚀 How to Run the Application (Local)
 
-### Step 3: Install Dependencies
-
-pip install -r requirements.txt
-
-### Step 4: Configure Environment Variables
-
-PINECONE_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-OPENAI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-### Step 5: Generate and Store Embeddings
-
-python store_index.py
-
-### Step 6: Run the Application
-
-python app.py
-http://localhost:5000
-
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/KTC-ChatGPT.git
 cd KTC-ChatGPT
+```
+
+### Step 2: Create and Activate Conda Environment
+
+```bash
+conda create -n ktc-chatgpt python=3.10 -y
+conda activate ktc-chatgpt
+```
+
+### Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Configure Environment Variables
+
+```bash
+PINECONE_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+### Step 5: Generate and Store Embeddings
+
+```bash
+python store_index.py
+```
+
+### Step 6: Run the Application
+
+```bash
+python app.py
+Open the application in browser : http://localhost:5000
+```
+
+## 🏗️ System Architecture
+
+<p align="center">
+  <img width="3428" height="2724" alt="image" src="https://github.com/user-attachments/assets/de4e4d4f-c40a-4739-9563-c41b36d707f9" />
+</p>
+
+This diagram illustrates the end-to-end flow of KTC-ChatGPT,
+from document ingestion to response generation and deployment.
