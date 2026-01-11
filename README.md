@@ -34,10 +34,6 @@ from document ingestion to response generation and deployment.
 
 ### Step 1: Clone the Repository
 
-## 🚀 How to Run the Application (Local)
-
-### Step 1: Clone the Repository
-
 ```bash
 git clone https://github.com/<your-username>/KTC-ChatGPT.git
 cd KTC-ChatGPT
