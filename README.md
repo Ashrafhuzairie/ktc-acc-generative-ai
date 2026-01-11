@@ -140,9 +140,8 @@ Create the following GitHub secrets:
 2. AWS_SECRET_ACCESS_KEY
 3. AWS_REGION
 4. ECR_REPOSITORY
-5. ECS_CLUSTER
-6. ECS_SERVICE
-7. CONTAINER_NAME
+5. OPEN_AI_KEY
+6. PINECONE_API_KEY
 
 GitHub Actions will:
 1. Build Docker image
