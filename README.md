@@ -70,7 +70,7 @@ Open the application in browser : http://localhost:5000
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img width="3428" height="2724" alt="image" src="https://github.com/user-attachments/assets/de4e4d4f-c40a-4739-9563-c41b36d707f9" />
+  <img src="docs/KTC-AI-Chatbot.png" width="800" />
 </p>
 
 This diagram illustrates the end-to-end flow of KTC-ChatGPT,
