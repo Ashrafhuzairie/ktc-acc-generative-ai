@@ -115,7 +115,7 @@ You should see at least **one registered EC2 instance**.
 3. Container settings:
    - Image: `<your-ecr-uri>:latest`
    - Port mapping: `5000`
-4. (Optional) Add environment variables or secrets:
+4. Add environment variables or secrets:
    - `OPENAI_API_KEY`
    - `PINECONE_API_KEY`
      
@@ -157,7 +157,7 @@ GitHub Actions will:
 Access the Web Application that deployed in AWS :
 
 <p align="center">
-  <img src="docs/KTC-AI-Chatbot.png" width="800" />
+  <img src="docs/KTC-AI-Chatbot-AWS.jpeg" width="800" />
 </p>
 
 ## 🏗️ System Architecture
