@@ -21,6 +21,15 @@ KTC-ChatGPT performs the following:
 
 ---
 
+## 🏗️ System Architecture
+
+<p align="center">
+  <img src="docs/KTC-AI-Chatbot.png" width="800" />
+</p>
+
+This diagram illustrates the end-to-end flow of KTC-ChatGPT,
+from document ingestion to response generation and deployment.
+
 ## 🚀 How to Run the Application (Local)
 
 ### Step 1: Clone the Repository
@@ -158,12 +167,3 @@ Access the Web Application that deployed in AWS :
 <p align="center">
   <img src="docs/KTC-AI-Chatbot-AWS.jpeg" width="800" />
 </p>
-
-## 🏗️ System Architecture
-
-<p align="center">
-  <img src="docs/KTC-AI-Chatbot.png" width="800" />
-</p>
-
-This diagram illustrates the end-to-end flow of KTC-ChatGPT,
-from document ingestion to response generation and deployment.
