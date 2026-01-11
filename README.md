@@ -25,19 +25,13 @@ KTC-ChatGPT performs the following:
 
 ### Step 1: Clone the Repository
 
-```bash
-git clone https://github.com/<your-username>/KTC-ChatGPT.git
-cd KTC-ChatGPT
-
 ### Step 2: Create and Activate Conda Environment
-
 conda create -n ktc-chatgpt python=3.10 -y
 conda activate ktc-chatgpt
 
 ### Step 3: Install Dependencies
 
 pip install -r requirements.txt
-
 
 ### Step 4: Configure Environment Variables
 
@@ -48,10 +42,12 @@ OPENAI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 python store_index.py
 
-
 ### Step 6: Run the Application
 
 python app.py
 http://localhost:5000
 
 
+```bash
+git clone https://github.com/<your-username>/KTC-ChatGPT.git
+cd KTC-ChatGPT
