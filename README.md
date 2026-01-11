@@ -154,8 +154,11 @@ GitHub Actions will:
 
 ### Step 7: Access the Application
 
-Depending on your setup:
+Access the Web Application that deployed in AWS :
 
+<p align="center">
+  <img src="docs/KTC-AI-Chatbot.png" width="800" />
+</p>
 
 ## 🏗️ System Architecture
 
